@@ -24,14 +24,23 @@ export const Item = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
-  h4 {
+  border-radius: 12px;
+
+  h3 {
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
   }
 
   p {
     color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
+  }
+
+  li {
+    color: ${({ theme }) => (theme === 'light' ? '#505050' : '#c7c7c7')};
+  }
+
+  &:visited {
+    color: inherit;
   }
 `;
 
@@ -58,14 +67,28 @@ export const Stats = styled.div`
       fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
     }
 
-    span {
-      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
-      margin-left: 0.5rem;
-    }
+    // span {
+    //   color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+    //   margin-left: 0.5rem;
+    // }
   }
 `;
 
 export const Languages = styled.div`
-  opacity: 0.5;
   font-size: 14px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    background-color: ${({ theme }) => (theme === 'light' ? '#ccc' : '#333')};
+    
+    color: ${({ theme }) => (theme === 'light' ? '#555' : '#ddd')};
+
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin: 4px 4px;
+
+    font-weight: bold;
+  }
 `;

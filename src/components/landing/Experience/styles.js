@@ -24,9 +24,14 @@ export const Item = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
-  h4 {
+  border-radius: 12px;
+
+  &:visited {
+    color: inherit;
+  }
+
+  h3 {
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
     margin-bottom: 10px;
   }
@@ -39,15 +44,26 @@ export const Item = styled.div`
     color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
 
+  li {
+    color: ${({ theme }) => (theme === 'light' ? '#505050' : '#c7c7c7')};
+  }
+
   .role {
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
   }
+`;
+
+export const SubHead = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 `;
 
 export const Content = styled.div`
   padding: 1rem 0;
   min-height: 160px;
 `;
+
 
 export const Stats = styled.div`
   display: flex;
@@ -66,15 +82,24 @@ export const Stats = styled.div`
     svg path {
       fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
     }
-
-    span {
-      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
-      margin-left: 0.5rem;
-    }
   }
 `;
 
 export const Languages = styled.div`
-  opacity: 0.5;
   font-size: 14px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    background-color: ${({ theme }) => (theme === 'light' ? '#ccc' : '#333')};
+    
+    color: ${({ theme }) => (theme === 'light' ? '#555' : '#ddd')};
+
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin: 4px 4px;
+
+    font-weight: bold;
+  }
 `;
