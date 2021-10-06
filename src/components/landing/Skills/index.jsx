@@ -30,10 +30,10 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>About Me</h1>
           <p>
-            I'm a student studying computer science at the University of Toronto. I'm interning at Intel and I will be interning at Hudson River Trading duing summer 2022. Currently I am actively seeking for fall 2022 internships!
+            I'm a student studying computer science at the University of Toronto. I'm now interning at Intel and I will be interning at Hudson River Trading duing summer 2022. Currently I am actively seeking for fall 2022 internships!
           </p>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Contact me
           </Button>
         </Details>
       </SkillsWrapper>

@@ -30,7 +30,7 @@ export const Intro = () => {
           <h1>Hi there,</h1>
           <h4>{defaultDescription}</h4>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Contact me
           </Button>
         </Details>
         <Thumbnail>
