@@ -63,11 +63,9 @@ export const Seo = ({
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 			<meta property="og:image" content={Thumbnail} />
-			<meta property="fb:app_id" content={social.facebook} />
 
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:creator" content={socialLinks.twitter} />
-			<meta name="twitter:site" content={social.twitter} />
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
 			<meta name="twitter:image:src" content={Thumbnail} />

@@ -8,7 +8,6 @@ const Home = () => (
 		<Intro />
 		<Projects />
 		<Skills />
-		<Contact />
 	</Layout>
 );
 
