@@ -2,7 +2,7 @@ module.exports = [
   {
     id: "intel",
     name: "Intel Corporation",
-    duration: "Summer 2021 - present",
+    duration: "May 2021 - present",
     role: "SWE Intern",
     descriptions: [
       "Decreased area by 21% and latency by 17% of target FPGA hardware by designing compiler optimization passes using LLVM and C++",
@@ -27,7 +27,7 @@ module.exports = [
   {
     id: "ta",
     name: "University of Toronto",
-    duration: "Fall 2020 - present",
+    duration: "September 2020 - present",
     role: "Teaching Assistant",
     descriptions: [
       "Guided students in weekly labs about linux shell and C programming, usage of software tools in software development",
