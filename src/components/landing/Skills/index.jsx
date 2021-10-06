@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Container, Button } from 'components/common';
+import { Container } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail, Linker } from './styles';
 import * as Resume from 'assets/resume/resume_safe.pdf';
 
 import {
   defaultDescription,
+  socialLinks
 } from 'data/config';
 
 export const Skills = () => {
@@ -25,7 +25,7 @@ export const Skills = () => {
             I'm a student studying computer science at the University of Toronto. Currently I am seeking for fall 2022 internships!
           </p>
           <p>
-            Wanna know more about me? Check out this <Linker href={Resume}>resume</ Linker>!
+            Wanna know more about me? Check out this <Linker href={Resume}>resume</ Linker>! Or you would like to see my <Linker href={socialLinks.github}>Github</ Linker> or <Linker href={socialLinks.linkedin}>Linkedin</ Linker>!
           </p>
         </Details>
       </SkillsWrapper>

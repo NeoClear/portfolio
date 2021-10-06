@@ -3,15 +3,7 @@ import { Container } from 'components/common';
 import { Wrapper, Flex, Links, Details } from './styles';
 import social from './social.json';
 import {
-  url,
-  defaultDescription,
-  defaultTitle,
-  socialLinks,
-  address,
-  contact,
   legalName,
-  foundingDate,
-  logo,
 } from 'data/config';
 
 export const Footer = () => (

@@ -10,7 +10,7 @@ export const Experience = () => {
 
   return (
     <Wrapper as={Container} id="experience">
-      <h2>Work Experience</h2>
+      <h1>Work Experience</h1>
       <Grid>
         {edges.map((node) => (
           <Item key={node.id} draggable="false" as="a" href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" theme={theme}>

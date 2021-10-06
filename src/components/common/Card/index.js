@@ -10,6 +10,9 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
+  border-left: 3px solid ${({ theme }) => (theme === 'light' ? "grey" : '#aaa')};
+  // background-color: ;
+
   &:hover {
     background-color: ${({ theme }) => (theme === 'light' ? '#f1f1f1' : '#151515')};
   }

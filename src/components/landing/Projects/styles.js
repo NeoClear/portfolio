@@ -25,8 +25,6 @@ export const Item = styled.div`
   height: 100%;
   overflow: hidden;
 
-  border-radius: 3px;
-
   h3 {
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
   }
@@ -36,7 +34,7 @@ export const Item = styled.div`
   }
 
   li {
-    color: ${({ theme }) => (theme === 'light' ? '#505050' : '#c7c7c7')};
+    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
 
   &:visited {
@@ -66,11 +64,6 @@ export const Stats = styled.div`
     svg path {
       fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
     }
-
-    // span {
-    //   color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
-    //   margin-left: 0.5rem;
-    // }
   }
 `;
 

@@ -7,16 +7,7 @@ import dev from 'assets/illustrations/dev.svg';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 
 import {
-  url,
   defaultDescription,
-  social,
-  defaultTitle,
-  socialLinks,
-  address,
-  contact,
-  legalName,
-  foundingDate,
-  logo,
 } from 'data/config';
 
 export const Intro = () => {
@@ -27,7 +18,7 @@ export const Intro = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-          <h1>Hi there,</h1>
+          <h1>Hi!</h1>
           <h4>{defaultDescription}</h4>
           <Button as={AnchorLink} draggable="false" href="#contact">
             Contact me

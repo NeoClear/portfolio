@@ -4,10 +4,23 @@ import detailsIllustration from 'assets/illustrations/details.svg';
 export const Linker = styled.a`
   color: #0074d9;
 
-  user-select: none;
   &:hover {
     text-decoration: underline;
   }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    background: gray;
+  }
+
+  ${({ secondary }) =>
+    secondary &&
+    `
+		background: #001F3F;
+	`}
 `;
 
 export const Wrapper = styled.div`

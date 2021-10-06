@@ -25,8 +25,6 @@ export const Item = styled.div`
   height: 100%;
   overflow: hidden;
 
-  border-radius: 3px;
-
   &:visited {
     color: inherit;
   }
@@ -45,11 +43,14 @@ export const Item = styled.div`
   }
 
   li {
-    color: ${({ theme }) => (theme === 'light' ? '#505050' : '#c7c7c7')};
+    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
 
   .role {
-    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+    // background: ;
+    // color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+    color: #0074d9;
+    font-weight: 700;
   }
 `;
 
