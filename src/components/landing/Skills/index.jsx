@@ -22,7 +22,7 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>About Me</h1>
           <p>
-            I'm a student studying computer science at the University of Toronto. Currently I am seeking for fall 2022 internships!
+            I am a student studying computer science at the University of Toronto. Currently I am seeking for fall 2022 internships!
           </p>
           <p>
             Wanna know more about me? Check out this <Linker href={Resume}>resume</ Linker>! Or you would like to see my <Linker href={socialLinks.github}>Github</ Linker> or <Linker href={socialLinks.linkedin}>Linkedin</ Linker>!
