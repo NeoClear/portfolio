@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import 'typeface-fira-sans';
 
 export const Wrapper = styled.div`
   padding: 1.5rem 0;
@@ -13,4 +14,8 @@ export const Brand = styled.a`
   @media (max-width: 960px) {
     mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
   }
+
+  font-family: "Fira Sans", sans serif;
+	// font-weight: 500;
+  font-size: 28px;
 `;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import 'typeface-fira-sans';
 
 export const Wrapper = styled.div`
   padding: 2rem 0;
@@ -76,12 +77,13 @@ export const Languages = styled.div`
   div {
     background-color: ${({ theme }) => (theme === 'light' ? '#ccc' : '#333')};
     
-    color: ${({ theme }) => (theme === 'light' ? '#555' : '#ddd')};
+    color: ${({ theme }) => (theme === 'light' ? '#444' : '#ddd')};
 
     border-radius: 12px;
     padding: 8px 12px;
     margin: 4px 4px;
 
-    font-weight: bold;
+    font-family: "Fira Sans", sans serif;
+	  font-weight: 500;
   }
 `;

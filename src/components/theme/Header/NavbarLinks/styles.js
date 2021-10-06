@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import 'typeface-fira-sans';
 
 export const Wrapper = styled.div`
   a {
@@ -10,9 +11,12 @@ export const Wrapper = styled.div`
 		}
   }
 
+	font-family: "Fira Sans", sans serif;
+	// font-weight: 400;
+
   ${({ desktop }) =>
-    desktop
-      ? `
+		desktop
+			? `
 			align-items: center;
 			display: flex;
 
@@ -28,7 +32,7 @@ export const Wrapper = styled.div`
 					}
 			}
 		`
-      : `
+			: `
 			padding: 3rem;
 			display: flex;
 			flex-direction: column;

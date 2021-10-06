@@ -21,7 +21,7 @@ export const Experience = () => {
                   <p className="role">
                     {node.role}
                   </p>
-                  <div>
+                  <div className="duration">
                     {node.duration}
                   </div>
                 </SubHead>

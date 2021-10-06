@@ -47,8 +47,6 @@ export const Item = styled.div`
   }
 
   .role {
-    // background: ;
-    // color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
     color: #0074d9;
     font-weight: 700;
   }
@@ -58,6 +56,10 @@ export const SubHead = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  .duration {
+    font-family: "Fira Sans", sans serif;
+  }
 `;
 
 export const Content = styled.div`
@@ -95,12 +97,13 @@ export const Languages = styled.div`
   div {
     background-color: ${({ theme }) => (theme === 'light' ? '#ccc' : '#333')};
     
-    color: ${({ theme }) => (theme === 'light' ? '#555' : '#ddd')};
+    color: ${({ theme }) => (theme === 'light' ? '#444' : '#ddd')};
 
     border-radius: 12px;
     padding: 8px 12px;
     margin: 4px 4px;
 
-    font-weight: bold;
+    font-family: "Fira Sans", sans serif;
+	  font-weight: 500;
   }
 `;

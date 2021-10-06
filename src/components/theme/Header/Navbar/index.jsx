@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
-        {legalName}
+        {legalName + '\'s Portfolio'}
       </Brand>
       <NavbarLinks desktop />
     </Wrapper>
