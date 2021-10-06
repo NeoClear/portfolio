@@ -29,7 +29,7 @@ export const Intro = () => {
         <Details theme={theme}>
           <h1>Hi there,</h1>
           <h4>{defaultDescription}</h4>
-          <Button as={AnchorLink} href="#contact">
+          <Button as={AnchorLink} draggable="false" href="#contact">
             Contact me
           </Button>
         </Details>

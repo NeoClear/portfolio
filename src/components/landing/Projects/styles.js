@@ -25,7 +25,7 @@ export const Item = styled.div`
   height: 100%;
   overflow: hidden;
 
-  border-radius: 12px;
+  border-radius: 3px;
 
   h3 {
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};

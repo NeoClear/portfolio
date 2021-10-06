@@ -1,6 +1,15 @@
 import styled from 'styled-components';
 import detailsIllustration from 'assets/illustrations/details.svg';
 
+export const Linker = styled.a`
+  color: #0074d9;
+
+  user-select: none;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 export const Wrapper = styled.div`
   background-image: url(${detailsIllustration});
   background-size: contain;
