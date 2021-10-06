@@ -1,14 +1,14 @@
 module.exports = {
-  defaultTitle: 'Daniel Wang',
+  defaultTitle: 'Ziheng Zhuang',
   logo: '',
-  author: 'Daniel Wang',
-  url: 'https://dnelw.com/',
-  legalName: 'Daniel Wang',
-  defaultDescription: 'I’m Daniel and I’m a fullstack developer!',
+  author: 'Ziheng Zhuang',
+  url: 'https://ziheng-zhuang.com/',
+  legalName: 'Ziheng Zhuang',
+  defaultDescription: 'I’m Ziheng and I’m a C++ and fullstack developer!',
   socialLinks: {
     twitter: '',
-    github: 'https://github.com/dnelw',
-    linkedin: 'https://www.linkedin.com/in/dnelw',
+    github: 'https://github.com/NeoClear',
+    linkedin: 'https://www.linkedin.com/in/ziheng-zhuang/',
     instagram: '',
     youtube: '',
     google: '',
@@ -26,8 +26,8 @@ module.exports = {
     zipCode: '',
   },
   contact: {
-    email: 'hey@dnelw.com',
-    phone: 'phone number',
+    email: 'neoclear@outlook.com',
+    phone: '',
   },
-  foundingDate: '2020',
+  foundingDate: '',
 };

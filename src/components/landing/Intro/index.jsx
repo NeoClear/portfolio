@@ -6,6 +6,19 @@ import { Container, Button } from 'components/common';
 import dev from 'assets/illustrations/dev.svg';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 
+import {
+  url,
+  defaultDescription,
+  social,
+  defaultTitle,
+  socialLinks,
+  address,
+  contact,
+  legalName,
+  foundingDate,
+  logo,
+} from 'data/config';
+
 export const Intro = () => {
   const { theme } = useContext(ThemeContext);
 
@@ -15,13 +28,13 @@ export const Intro = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Hi there,</h1>
-          <h4>I’m Daniel and I’m a fullstack developer!</h4>
+          <h4>{defaultDescription}</h4>
           <Button as={AnchorLink} href="#contact">
             Hire me
           </Button>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m Daniel and I’m a fullstack developer!" />
+          <img src={dev} alt={defaultDescription} />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>

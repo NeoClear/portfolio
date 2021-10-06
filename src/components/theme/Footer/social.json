@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "Github",
-    "link": "https://github.com/dnelw",
+    "link": "https://github.com/NeoClear",
     "icon": "/icons/github.svg"
   },
   {
     "id": 2,
     "name": "Linkedin",
-    "link": "https://linkedin.com/in/dnelw",
+    "link": "https://linkedin.com/in/ziheng-zhuang",
     "icon": "/icons/linkedin.svg"
   }
 ]
