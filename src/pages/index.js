@@ -1,14 +1,14 @@
-import React from "react";
-import { Layout, Seo } from "components/common";
-import { Intro, Skills, Contact, Projects } from "components/landing";
+import React from 'react';
+import { Layout, SEO } from 'components/common';
+import { Intro, Experience, Skills, Contact, Projects } from 'components/landing';
 
-const Home = () => (
-	<Layout>
-		<Seo />
-		<Intro />
-		<Projects />
-		<Skills />
-	</Layout>
+export default () => (
+  <Layout>
+    <SEO />
+    <Intro />
+    <Skills />
+    <Experience />
+    <Projects />
+    <Contact />
+  </Layout>
 );
-
-export default Home;
