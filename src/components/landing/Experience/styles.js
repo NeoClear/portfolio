@@ -25,10 +25,6 @@ export const Item = styled.div`
   height: 100%;
   overflow: hidden;
 
-  &:visited {
-    color: inherit;
-  }
-
   h3 {
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
     margin-bottom: 10px;
@@ -49,6 +45,14 @@ export const Item = styled.div`
   .role {
     color: #0074d9;
     font-weight: 700;
+  }
+
+  .duration {
+    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+
+    &:visited {
+      color: inherit;
+    }
   }
 `;
 

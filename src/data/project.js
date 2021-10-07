@@ -84,5 +84,72 @@ module.exports = [
         name: 'Antlr4'
       }
     ]
-  }
+  },
+  {
+    id: 'portfolio',
+    url: 'https://github.com/NeoClear/portfolio',
+    name: 'Portfolio',
+    descriptions: [
+      "Implemented and deployed a portfolio website with redesigned UI components",
+      "Used CI services to continuously deploy website code from Github into Vercel",
+      "Utilized existing portfolio template to facilitate development and increase UI consistency"
+    ],
+    technologies: [
+      {
+        id: 'react',
+        name: 'React'
+      },
+      {
+        id: 'gatsby',
+        name: 'Gatsby'
+      },
+      {
+        id: 'ci',
+        name: 'Continuous Integration'
+      },
+    ]
+  },
+  {
+    id: 'oneroom',
+    url: 'https://github.com/tiafs/oneroom',
+    name: 'One Room',
+    descriptions: [
+      "Designed a clubhouse‐like web application using React, Typescript and SCSS for text and audio chat",
+      "Increased frontend load speed by 80% by splitting code and using pure SCSS and typescript",
+      "Still in development"
+    ],
+    technologies: [
+      {
+        id: 'react',
+        name: 'React'
+      },
+      {
+        id: 'typescript',
+        name: 'Typescript'
+      },
+      {
+        id: 'scss',
+        name: 'SCSS'
+      },
+    ]
+  },
+  {
+    id: 'neolang',
+    url: 'https://github.com/NeoClear/neolang',
+    name: 'NeoLang',
+    descriptions: [
+      "Programmed a compiler for Java‐like language with object system and generics in LLVM and C++",
+      "Still in development"
+    ],
+    technologies: [
+      {
+        id: 'llvm',
+        name: 'LLVM'
+      },
+      {
+        id: 'cpp',
+        name: 'C++'
+      },
+    ]
+  },
 ];
