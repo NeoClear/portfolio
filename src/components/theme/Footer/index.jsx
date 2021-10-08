@@ -15,7 +15,7 @@ export const Footer = () => (
       <Links>
         {social.map(({ id, name, link, icon }) => (
           <a key={id} href={link} target="_blank" rel="noopener noreferrer" aria-label={`follow me on ${name}`}>
-            <img width="24" src={icon} alt={name} />
+            <img width="40" src={icon} alt={name} />
           </a>
         ))}
       </Links>

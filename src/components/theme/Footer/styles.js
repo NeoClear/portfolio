@@ -1,5 +1,6 @@
 import footerIllustration from 'assets/illustrations/footer.svg';
 import styled from 'styled-components';
+import 'typeface-fira-sans';
 
 export const Wrapper = styled.div`
   padding: 28rem 0 4rem 0;
@@ -39,7 +40,12 @@ export const Links = styled.div`
 `;
 
 export const Details = styled.div`
-  h2,
+  h2 {
+    font-family: "Fira Sans", sans serif;
+	  font-weight: 500;
+    font-size: 32px;
+    color: black;
+  }
   a,
   span {
     color: #212121;
