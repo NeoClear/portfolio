@@ -82,6 +82,10 @@ module.exports = [
       {
         id: 'antlr4',
         name: 'Antlr4'
+      },
+      {
+        id: 'cpp',
+        name: 'Modern C++'
       }
     ]
   },
@@ -148,7 +152,7 @@ module.exports = [
       },
       {
         id: 'cpp',
-        name: 'C++'
+        name: 'Modern C++'
       },
     ]
   },
