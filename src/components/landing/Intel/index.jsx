@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Container, Card, TitleWrap } from 'components/common';
-import { Wrapper, Grid, Item, Content, Stats, Languages, Paragraph } from './styles';
-import * as edges from 'data/project';
+import { Container } from 'components/common';
+import { Wrapper, Paragraph } from './styles';
 
 export const Intel = () => {
   const { theme } = useContext(ThemeContext);

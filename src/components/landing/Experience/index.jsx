@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Card, TitleWrap } from 'components/common';
 import { Wrapper, Grid, Item, Content, Stats, Languages, SubHead } from './styles';
-import { socialLinks } from 'data/config';
+import { experiencePosts } from 'data/config';
 import * as edges from 'data/experience';
 
 export const Experience = () => {
@@ -13,7 +13,7 @@ export const Experience = () => {
       <h1>Work Experience</h1>
       <Grid>
         {edges.map((node) => (
-          <Item key={node.id} draggable="false" as="a" href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" theme={theme}>
+          <Item key={node.id} draggable="false" as="a" href={experiencePosts[node.id]} target="_blank" rel="noopener noreferrer" theme={theme}>
             <Card theme={theme}>
               <Content>
                 <h3>{node.name}</h3>

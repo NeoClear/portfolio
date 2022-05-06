@@ -10,7 +10,7 @@ export default () => (
     <Skills />
     <Experience />
     <Projects />
-    <Intel />
+    {/* <Intel /> */}
     <Contact />
   </Layout>
 );
