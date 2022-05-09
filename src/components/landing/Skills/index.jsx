@@ -3,7 +3,7 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail, Linker } from './styles';
-import * as Resume from 'assets/resume/resume_safe.pdf';
+import * as Resume from 'assets/resume/resume.pdf';
 
 import {
   defaultDescription,

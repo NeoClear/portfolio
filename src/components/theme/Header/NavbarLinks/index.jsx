@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
 import ToggleTheme from 'components/theme/Header/ToggleTheme';
 import { Wrapper } from './styles';
-import * as Resume from 'assets/resume/resume_safe.pdf';
+import * as Resume from 'assets/resume/resume.pdf';
 
 const NavbarLinks = ({ desktop }) => {
   const { theme } = useContext(ThemeContext);
