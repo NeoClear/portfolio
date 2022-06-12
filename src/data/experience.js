@@ -1,5 +1,28 @@
 module.exports = [
   {
+    id: "hrt",
+    name: "Hudson River Trading",
+    duration: "May 2022 - August 2022",
+    role: "SWE Intern",
+    descriptions: [
+      "TBD"
+    ],
+    technologies: [
+      {
+        id: 'clang',
+        name: 'Clang'
+      },
+      {
+        id: 'cpp',
+        name: 'C++'
+      },
+      {
+        id: 'autotest',
+        name: 'Autotest'
+      }
+    ]
+  },
+  {
     id: "intel",
     name: "Intel Corporation",
     duration: "May 2021 - April 2022",
