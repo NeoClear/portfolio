@@ -5,7 +5,7 @@ module.exports = [
     duration: "May 2022 - August 2022",
     role: "SWE Intern",
     descriptions: [
-      "TBD"
+      "Implemented Clang front-end syntax checks to reduce engineering errors over large codebase using C++"
     ],
     technologies: [
       {
@@ -28,7 +28,7 @@ module.exports = [
     duration: "May 2021 - April 2022",
     role: "SWE Intern",
     descriptions: [
-      "Decreased area by 21% and latency by 17% of target FPGA hardware by designing compiler optimization passes using LLVM and C++",
+      "Decreased area and latency of FPGA hardware by designing compiler optimization passes using LLVM and C++",
       "Automated compilation flow for hybrid compiler by writing Perl scripts and adding compiler modules",
       "Completed tutorials for customers by recording experiments on the effect of compiler flags on performance"
     ],
