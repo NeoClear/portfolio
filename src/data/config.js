@@ -10,6 +10,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/zihengzh/',
   },
   experiencePosts: {
+    hrt: 'https://www.linkedin.com/in/zihengzh/',
     intel: 'https://www.ziheng-zhuang.com/2022/05/05/internship/intel-internship/',
     ta: 'https://www.utsc.utoronto.ca/home/'
   },

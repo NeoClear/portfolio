@@ -5,7 +5,8 @@ module.exports = [
     duration: "May 2022 - August 2022",
     role: "SWE Intern",
     descriptions: [
-      "Implemented Clang front-end syntax checks to reduce engineering errors over large codebase using C++"
+      "Implemented Clang front-end syntax checks to reduce engineering errors over large codebase using C++ and Shell",
+      "Engineered compiler front-end modules to modernize code across large C++ codebase using C++"
     ],
     technologies: [
       {
