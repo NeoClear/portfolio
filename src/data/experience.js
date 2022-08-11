@@ -6,7 +6,9 @@ module.exports = [
     role: "SWE Intern",
     descriptions: [
       "Implemented Clang front-end syntax checks to reduce engineering errors over large codebase using C++ and Shell",
-      "Engineered compiler front-end modules to modernize code across large C++ codebase using C++"
+      "Engineered compiler front-end modules to modernize code across large C++ codebase using C++",
+      "Developed a helper tool to assist with codebase refactoring using primarily C++",
+      "Improved trading efficiency by writing financial product access tool using primarily C++ and MySQL"
     ],
     technologies: [
       {
