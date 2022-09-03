@@ -1,5 +1,22 @@
 module.exports = [
   {
+    id: "meta",
+    name: "Meta",
+    duration: "August 2022 - November 2022",
+    role: "SWE Intern",
+    descriptions: [
+      "Removed redundent text relevance algorithms while keeping high text matching quality by conducting experiments",
+      "Unified diverged text feature extraction components into a standalone workflow unit",
+      "Reduced facebook search junkiness by introducing a new feature score computation component using C++"
+    ],
+    technologies: [
+      {
+        id: 'cpp',
+        name: 'C++'
+      }
+    ]
+  },
+  {
     id: "hrt",
     name: "Hudson River Trading",
     duration: "May 2022 - August 2022",
