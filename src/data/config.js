@@ -10,7 +10,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/zihengzh/',
   },
   experiencePosts: {
-    meta: "https://www.linkedin.com/in/zihengzh/",
+    meta: "https://www.ziheng-zhuang.com/meta-internship/",
     hrt: 'https://www.linkedin.com/in/zihengzh/',
     intel: 'https://www.ziheng-zhuang.com/intel-internship/',
     ta: 'https://www.utsc.utoronto.ca/home/'
