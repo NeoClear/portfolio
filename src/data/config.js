@@ -2,7 +2,7 @@ module.exports = {
   defaultTitle: 'Ziheng Zhuang',
   logo: '',
   author: 'Ziheng Zhuang',
-  url: 'https://zihengzh.com/',
+  url: 'https://zihengzh.xyz/',
   legalName: 'Ziheng Zhuang',
   defaultDescription: 'I’m Ziheng and I’m a C++ and fullstack developer!',
   socialLinks: {
